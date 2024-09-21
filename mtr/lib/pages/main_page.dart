@@ -3,6 +3,7 @@ import 'home.dart';
 import 'event.dart'; // Import the new page
 import 'competition.dart'; // Import the new page
 import 'search.dart'; // Import the new page
+import 'SearchComponent.dart';
 import 'profile.dart'; // Import the new page
 
 class MainPage extends StatefulWidget {
@@ -18,6 +19,7 @@ class _MainPageState extends State<MainPage> {
     HomeScreen(), // The home screen content
     EventPage(), // Тоглолт page
     CompetitionPage(), // Тэмцээн page
+    // SearchComponent(),
     SearchPage(), // Хайлт page
     ProfilePage(), // Профайл page
   ];
